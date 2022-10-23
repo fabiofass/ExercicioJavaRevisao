@@ -1,0 +1,30 @@
+package com.livraria;
+
+import java.util.ArrayList;
+
+public class Biblioteca {
+
+	ArrayList<Livros> minhalista = new ArrayList<Livros>();
+
+	public void addLivro() {
+		Livros livros = new Livros();
+		Livros livros2 = new Livros();
+		Livros livros3 = new Livros();
+		livros.setTitulo("Vida");
+		livros.setAutor("fabiofass");
+		livros2.setTitulo("verdades");
+		livros2.setAutor("fabiofass");
+		livros3.setTitulo("Mentiras");
+		livros3.setAutor("fabiofass");
+		minhalista.add(0, livros);
+		minhalista.add(1, livros2);
+		minhalista.add(3, livros3);
+
+	}
+
+	public void deletLivro() {
+		minhalista.remove(1);
+
+	}
+
+}

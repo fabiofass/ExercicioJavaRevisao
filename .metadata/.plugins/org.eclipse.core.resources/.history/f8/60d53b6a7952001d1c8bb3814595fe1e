@@ -1,0 +1,34 @@
+package com.livraria;
+
+import java.util.ArrayList;
+
+
+public class Biblioteca {
+	static //static ArrayList<Livros> minhalista ;
+	ArrayList<Livros> minhalista = new ArrayList<Livros>();
+
+	public static void addLivro(String titulo, String autor) {
+		Livros livros = new Livros();
+		livros.setTitulo("Vida");
+		livros.setAutor("fabiofass");
+		livros.setTitulo("Verdades");
+		livros.setAutor("fabiofass");
+		minhalista.add(livros);
+		
+	    
+		}
+
+	public void deletLivro() {
+
+	}
+	public static void listarLivros() {
+		if(minhalista.size() > 0) {
+            for(Livros conta: minhalista) {
+                System.out.println(conta);
+            }
+		
+	}
+	
+	
+
+}

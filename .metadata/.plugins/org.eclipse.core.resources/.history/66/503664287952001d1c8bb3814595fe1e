@@ -1,0 +1,16 @@
+package com.livraria;
+
+public class Aplicacao extends Biblioteca {
+
+	public static void main(String[] args) {
+		
+		Biblioteca.addLivro(String titulo, String autor);
+		Biblioteca.listarLivros();
+		
+		
+	}
+	
+
+	
+
+}

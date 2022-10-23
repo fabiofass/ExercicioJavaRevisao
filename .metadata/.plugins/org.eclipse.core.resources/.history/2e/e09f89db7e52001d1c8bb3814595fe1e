@@ -1,0 +1,24 @@
+package com.livraria;
+
+import java.util.Iterator;
+
+public class Aplicacao extends Biblioteca {
+
+	public static void main(String[] args) {
+		
+		Biblioteca biblioteca = new Biblioteca();
+		biblioteca.addLivro();
+		//System.out.println("MINHA LISTA DE LIVROS" + biblioteca.minhalista );
+		int i = 0;
+	    Iterator<Livros> iterator = biblioteca.minhalista.iterator();
+	    while (iterator.hasNext()) {
+	      System.out.printf("Posição %d- %s\n", i, iterator.next());
+	      i++;
+		
+		
+	}
+	
+
+	
+
+}

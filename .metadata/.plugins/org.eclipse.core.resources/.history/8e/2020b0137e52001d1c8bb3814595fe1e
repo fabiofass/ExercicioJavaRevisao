@@ -1,0 +1,18 @@
+package com.livraria;
+
+public class Aplicacao extends Biblioteca {
+
+	public static void main(String[] args) {
+		
+		Biblioteca biblioteca = new Biblioteca();
+		biblioteca.addLivro();
+		biblioteca.listarLivros();
+		System.out.println("Lista de  livros: " + biblioteca.minhalista );
+		
+		
+	}
+	
+
+	
+
+}
