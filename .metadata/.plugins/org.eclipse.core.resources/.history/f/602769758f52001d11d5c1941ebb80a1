@@ -31,7 +31,6 @@ public class Aplicacao extends Biblioteca {
 		//adicionando novo livro
 		Livros livros4 = new Livros();
 		livros4.setTitulo("Aprendendo Java");
-		livros4.setAutor("fabiofass");
 		biblioteca.minhalista.add(2, livros4);
 		
 		//Atualizando lista

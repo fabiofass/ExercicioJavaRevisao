@@ -4,8 +4,8 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.management.MBeanServerInvocationHandler"/>
-    <fullyQualifiedTypeName name="com.livraria.Livros"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.livraria.Biblioteca"/>
+    <fullyQualifiedTypeName name="com.livraria.Livros"/>
 </qualifiedTypeNameHistroy>
